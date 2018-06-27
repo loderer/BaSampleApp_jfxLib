@@ -1,9 +1,8 @@
 classdef Application < handle
-    %STARTUP Summary of this class goes here
-    %   Detailed explanation goes here
+    %APPLICATION Runs the sample application.
     
     properties
-        stage; 
+        stage;
         stageObservable_h;
         jfxThread; 
         sceneObservable_h;
@@ -49,8 +48,9 @@ classdef Application < handle
         function handleSceneEvent(obj, e) 
             if(strcmp(e.fxId, 'btn')...
                     && strcmp(e.action, 'ACTION'))
-                 lbl = obj.jfxThread.getUiElement('lbl');
-                 obj.jfxThread.applyTask(lbl, 'setText', 'heureka');
+                % Handle click on btn. 
+                lbl = obj.jfxThread.getUiElement('lbl');
+                obj.jfxThread.applyTask(lbl, 'setText', 'heureka');
             end
         end
     end
