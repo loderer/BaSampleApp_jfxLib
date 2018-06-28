@@ -9,7 +9,7 @@ classdef Config
         end
         
         function ret = pathToSampleFxml
-            ret = 'C:\Users\rudi\Documents\GitHub\BaSampleApp_jfxLib\scene_sample\sample.fxml'; 
+            ret = 'C:\Users\rudi\Documents\GitHub\BaSampleApp_jfxLib\sample_app\sample.fxml'; 
         end
     end
 end

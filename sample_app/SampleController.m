@@ -1,7 +1,7 @@
 classdef SampleController < handle
     %SAMPLECONTROLLER Controller for the sample scene.
     
-    properties
+    properties(Access=private)
         % Properties concerning the stage. 
         stage; 
         stageObservable; 
@@ -82,6 +82,5 @@ classdef SampleController < handle
             set(obj.sceneObservable_h, 'EventCallback', ''); 
         end
     end
-    
 end
 
