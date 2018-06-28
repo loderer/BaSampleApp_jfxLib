@@ -7,6 +7,10 @@ classdef Config
         function ret = jfx4matlabPath
             ret = 'C:\Users\rudi\Documents\GitHub\BaJavaFx\out\artifacts\jfx4matlab_jar\jfx4matlab.jar';
         end
+        
+        function ret = pathToSampleFxml
+            ret = 'C:\Users\rudi\Documents\GitHub\BaSampleApp_jfxLib\scene_sample\sample.fxml'; 
+        end
     end
 end
 

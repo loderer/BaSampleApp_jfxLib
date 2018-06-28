@@ -10,4 +10,4 @@ javaaddpathstatic(Config.jfx4matlabPath);
 %--------------------------------------------------------------------------
 
 app = Application; 
-app.startup(); 
+app.start(); 
